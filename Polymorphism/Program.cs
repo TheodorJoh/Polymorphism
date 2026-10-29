@@ -2,6 +2,9 @@
 
 namespace Polymorphism
 {
+    //Main.
+    //The different shapes are initilized and then put into a list called Shapes.
+    //The list is then looped througn and each shapes area and names is printed.
     internal class Program
     {
         static void Main(string[] args)

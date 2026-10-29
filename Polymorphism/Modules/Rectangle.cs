@@ -1,7 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-
+//Rectangle
+//Subclass to Geometry
+// Side1 : Properity that is a double and is used to calculate the area. It represents one of the sides of the rectangle.
+// Side2 : Properity that is a double and is used to calculate the area. It represents one of the sides of the rectangle.
+// Has two Constructors, one without parameters and one with.
+// This class has one method called Area and it is used to return the area of the rectangle.
 namespace Polymorphism.Modules
 {
     public class Rectangle : Geometry
