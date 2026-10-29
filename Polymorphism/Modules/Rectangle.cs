@@ -9,19 +9,19 @@ namespace Polymorphism.Modules
         public Rectangle()
         {
             Side1 = 4;
-            Side2 = 6;
+            Side2 = 12;
         }
         public Rectangle(double Side1,double Side2)
         {
-            this.Side1 = this.Side1;
-            this.Side2 = this.Side2;
+            this.Side1 = Side1;
+            this.Side2 = Side2;
         }
         public double Side1 { get; set; }
         public double Side2 { get; set; }
 
         public override double Area()
         {
-            return Side1 * Side2;
+            return Math.Round(Side1 * Side2, 2);
         }
     }
 }

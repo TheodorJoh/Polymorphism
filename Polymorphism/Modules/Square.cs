@@ -8,20 +8,17 @@ namespace Polymorphism.Modules
     {
         public Square()
         {
-            Side1 = 4;
-            Side2 = 4;
+            Side1 = 8;
         }
-        public Square(double Side1, double Side2)
+        public Square(double Side1)
         {
             this.Side1 = Side1;
-            this.Side2 = Side2;
         }
         public double Side1 { get; set; }
-        public double Side2 { get; set; }
 
         public override double Area()
         {
-            return Side1 * Side2;
+            return Math.Round(Side1 * Side1, 2);
         }
     }
 }

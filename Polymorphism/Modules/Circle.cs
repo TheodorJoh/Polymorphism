@@ -18,7 +18,7 @@ namespace Polymorphism.Modules
 
         public override double Area()
         {
-            return Radius*Radius*Math.PI;
+            return Math.Round(Radius*Radius*Math.PI,2);
         }
     }
 }

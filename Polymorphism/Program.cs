@@ -16,7 +16,7 @@ namespace Polymorphism
             Shapes.Add(Square);
             foreach(var shape in Shapes)
             {
-                Console.WriteLine($"Area of {shape.GetType()}: {shape.Area()}");
+                Console.WriteLine($"Area of {shape.GetType().Name}: {shape.Area()}");
             }
 
             Console.ReadKey();
