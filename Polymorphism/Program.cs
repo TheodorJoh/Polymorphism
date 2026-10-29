@@ -6,14 +6,14 @@ namespace Polymorphism
     {
         static void Main(string[] args)
         {
-            Circle Circle = new Circle();
-            Rectangle Rectangle = new Rectangle();
-            Square Square = new Square();
+            Geometry Circle = new Circle();
+            Geometry Rectangle = new Rectangle();
+            Geometry Square = new Square();
 
+            Console.WriteLine($"Area of Circle: {Circle.Area()}");
+            Console.WriteLine($"Area of Square: {Square.Area()}");
+            Console.WriteLine($"Area of Rectangle {Rectangle.Area()}");
 
-            Circle.PrintInfo();
-            Rectangle.PrintInfo();
-            Square.PrintInfo();
         }
     }
 }
