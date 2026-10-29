@@ -23,10 +23,5 @@ namespace Polymorphism.Modules
         {
             return Side1 * Side2;
         }
-
-        public override void PrintInfo()
-        {
-            Console.WriteLine($"Rectangle with one side with length of {Side1} and another with {Side2} and has an area of {Area()}");
-        }
     }
 }

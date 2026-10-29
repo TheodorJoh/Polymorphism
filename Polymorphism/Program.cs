@@ -10,9 +10,16 @@ namespace Polymorphism
             Geometry Rectangle = new Rectangle();
             Geometry Square = new Square();
 
-            Console.WriteLine($"Area of Circle: {Circle.Area()}");
-            Console.WriteLine($"Area of Square: {Square.Area()}");
-            Console.WriteLine($"Area of Rectangle {Rectangle.Area()}");
+            List<Geometry> Shapes = new List<Geometry>();
+            Shapes.Add(Circle);
+            Shapes.Add(Rectangle);
+            Shapes.Add(Square);
+            foreach(var shape in Shapes)
+            {
+                Console.WriteLine($"Area of {shape.GetType()}: {shape.Area()}");
+            }
+
+            Console.ReadKey();
 
         }
     }

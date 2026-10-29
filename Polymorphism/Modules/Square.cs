@@ -13,8 +13,8 @@ namespace Polymorphism.Modules
         }
         public Square(double Side1, double Side2)
         {
-            this.Side1 = this.Side1;
-            this.Side2 = this.Side2;
+            this.Side1 = Side1;
+            this.Side2 = Side2;
         }
         public double Side1 { get; set; }
         public double Side2 { get; set; }
@@ -22,10 +22,6 @@ namespace Polymorphism.Modules
         public override double Area()
         {
             return Side1 * Side2;
-        }
-        public override void PrintInfo()
-        {
-            Console.WriteLine($"Square with sides of {Side1} and has an area of {Area()}");
         }
     }
 }

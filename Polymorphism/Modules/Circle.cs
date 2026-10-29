@@ -20,10 +20,5 @@ namespace Polymorphism.Modules
         {
             return Radius*Radius*Math.PI;
         }
-
-        public override void PrintInfo()
-        {
-            Console.WriteLine($"Circle with radius of {Radius} and has an area of {Area()}");
-        }
     }
 }

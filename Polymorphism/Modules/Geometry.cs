@@ -7,6 +7,5 @@ namespace Polymorphism.Modules
     public abstract class Geometry
     {
         public abstract double Area();
-        public abstract void PrintInfo();
     }
 }
